@@ -1,0 +1,251 @@
+body{
+  margin:0;
+}
+.nav-bar{
+  height:18vh;
+  }
+.logo{
+  height: 13vh;
+  width:5.2vw;
+  position: absolute;
+  left: 5vw;
+  top: 2.8vh;
+}
+.name{
+  display:inline-block;
+  margin:0;
+  position: absolute;
+  left: 12.4vw;
+  top: 6.5vh;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 34vw;
+  top: 6.8vh;
+}
+.menuli{
+  display: inline-block;
+  margin-left: 2.9vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.menuli:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navi{
+  text-decoration: none;
+  color: black;
+}
+.social{
+  height: 7vh;
+  width: 3vw;
+  margin-left: 1vw;
+}
+#fb{
+  position: absolute;
+  left: 83vw;
+  top:6vh;
+}
+#insta{
+  position: absolute;
+  left: 88vw;
+  top: 6vh;
+}
+#linked{
+  position: absolute;
+  left: 93vw;
+  top: 6vh;
+}
+#fb:hover{
+  transform: scaleX(1.1);
+}
+#linked:hover{
+  transform: scaleX(1.1);
+}
+#insta:hover{
+  transform: scaleX(1.1);
+}
+.container1{
+  text-align: center;
+  margin-top: 7vw;
+}
+.heading1{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  word-spacing: 0.4vw;
+}
+.heading2{
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+.image{
+  margin-top: 2vw;
+  width: 7vw;
+  height: 7vw;
+}
+.container2{
+  width: 60vw;
+  height: 40vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+}
+.contactphoto{
+  width: 22vw;
+  height: 36vw;
+  position: absolute;
+  left: 42vw;
+  top: 2vw;
+}
+.form1{
+  display: inline-block;
+}
+.fname{
+  display: inline-block;
+  position: absolute;
+  top: 9.2vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1vw;
+}
+.lname{
+  display: inline-block;
+  position: absolute;
+  top: 9.2vw;
+  left: 13.6vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1vw;
+}
+#fname{
+  margin-right: 0.5vw;
+  position: absolute;
+  top: 7.8vw;
+  height: 2vw;
+}
+#lname{
+  margin-left: 0.2vw;
+  position: absolute;
+  top: 7.8vw;
+  left: 13vw;
+  height: 2vw;
+}
+.con{
+  position: absolute;
+  left: 8vw;
+  top: 1vw;
+  margin: 0;
+  margin-bottom: 8vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.name1{
+  position: absolute;
+  left: 0vw;
+  top: 6vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.mail{
+  position: absolute;
+  top: 14vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.msg{
+  position: absolute;
+  top: 21vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.mailbox{
+  position: absolute;
+  top: 16vw;
+  width: 25.6vw;
+  height: 2vw;
+}
+.msgbox{
+  position: absolute;
+  top: 23vw;
+  width: 25.6vw;
+  height: 7vw;
+}
+label{
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+#submit{
+  position: absolute;
+  top: 33.5vw;
+  left: 8.6vw;
+  width: 9vw;
+  height: 3vw;
+  color: white;
+  background-color: rgba(23,23,23,.8);
+  font-size: 1.5vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  border-radius: 1vw;
+}
+#submit:hover{
+  background-color: #626663;
+  cursor: pointer;
+}
+.copy{
+  background-color: black;
+  height: 6vw;
+}
+.para{
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 2.5vw;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  margin-bottom: 2vw;
+  width: 10vw;
+  border-width: 0.6vw;
+  border-color: grey;
+  margin-top: 8vw;
+}
+.phone{
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  left: 3vw;
+}
+.gmail{
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  left: 51vw;
+}
+.no{
+  display: inline-block;
+  position: absolute;
+  left: 9vw;
+  top: 0.2vw;
+  font-weight: bold;
+  font-size: 1.6vw;
+}
+.id{
+  display: inline-block;
+  position: absolute;
+  left: 57vw;
+  top: 0.2vw;
+  font-weight: bold;
+  font-size: 1.6vw;
+}
+.container3{
+  width: 75vw;
+  height: 7vw;
+  margin-top: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6vw;
+  position: relative;
+}

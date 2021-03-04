@@ -1,0 +1,154 @@
+body{
+  margin:0;
+}
+.nav-bar{
+  height:18vh;
+  }
+.logo{
+  height: 13vh;
+  width:5.2vw;
+  position: absolute;
+  left: 5vw;
+  top: 2.8vh;
+}
+.name{
+  display:inline-block;
+  margin:0;
+  position: absolute;
+  left: 12.4vw;
+  top: 6.5vh;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 34vw;
+  top: 6.8vh;
+}
+.navi{
+  text-decoration: none;
+  color: black;
+}
+.menuli{
+  display: inline-block;
+  margin-left: 2.9vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.menuli:hover{
+  text-decoration: underline;
+}
+.menuli:active{
+  color: grey;
+}
+.social{
+  height: 7vh;
+  width: 3vw;
+  margin-left: 1vw;
+}
+#fb{
+  position: absolute;
+  left: 83vw;
+  top:6vh;
+}
+#insta{
+  position: absolute;
+  left: 88vw;
+  top: 6vh;
+}
+#linked{
+  position: absolute;
+  left: 93vw;
+  top: 6vh;
+}
+#fb:hover{
+  transform: scaleX(1.1);
+}
+#linked:hover{
+  transform: scaleX(1.1);
+}
+#insta:hover{
+  transform: scaleX(1.1);
+}
+.c1photo{
+  width: 23vw;
+  height: 39vw;
+  position: absolute;
+  left: 62.5vw;
+}
+.text{
+  width: 40vw;
+  padding: 3.2vw;
+  display: inline-block;
+  position: absolute;
+  left: 16vw;
+  top: 3vw;
+}
+.container1{
+  margin-top: 6vw;
+  position: relative;
+  height: 40vw;
+  margin-bottom: 5vw;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  margin-bottom: 2vw;
+  width: 10vw;
+  border-width: 0.6vw;
+  border-color: grey;
+  margin-top: 9vw;
+  margin-bottom: 8vw;
+}
+.p{
+  font-size: 1.5vw;
+  font-family: 'Lato', sans-serif;
+  word-spacing: 0.7vw;
+  margin: 0;
+}
+.img{
+  width: 12vw;
+  height: 12vw;
+  margin: 5vw;
+}
+.img:hover{
+  transform: scale(1.1);
+}
+.container2{
+  text-align: center;
+}
+.skills{
+  font-size: 4vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 3vw;
+}
+.parag{
+  margin-left: 9vw;
+  font-size: 1.5vw;
+  font-family: 'Lato', sans-serif;
+  word-spacing: 0.7vw;
+}
+.copy{
+  margin-top: 2vw;
+  background-color: black;
+  height: 6vw;
+  padding: 2vw;
+}
+.para{
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 3vw;
+}
+.clg{
+  color: white;
+  margin:0;
+  text-align: center;
+}
+.a{
+  color: white;
+  text-decoration: none;
+}

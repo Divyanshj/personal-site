@@ -1,0 +1,168 @@
+body{
+  margin:0;
+}
+.nav-bar{
+  height:18vh;
+  }
+.logo{
+  height: 13vh;
+  width:5.2vw;
+  position: absolute;
+  left: 5vw;
+  top: 2.8vh;
+}
+.name{
+  display:inline-block;
+  margin:0;
+  position: absolute;
+  left: 12.4vw;
+  top: 6.5vh;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 34vw;
+  top: 6.8vh;
+}
+.navi{
+  text-decoration: none;
+  color: black;
+}
+.menuli{
+  display: inline-block;
+  margin-left: 2.9vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.menuli:hover{
+  text-decoration: underline;
+}
+.menuli:active{
+  color: grey;
+}
+.social{
+  height: 7vh;
+  width: 3vw;
+  margin-left: 1vw;
+}
+#fb{
+  position: absolute;
+  left: 83vw;
+  top:6vh;
+}
+#insta{
+  position: absolute;
+  left: 88vw;
+  top: 6vh;
+}
+#linked{
+  position: absolute;
+  left: 93vw;
+  top: 6vh;
+}
+#fb:hover{
+  transform: scaleX(1.1);
+}
+#linked:hover{
+  transform: scaleX(1.1);
+}
+#insta:hover{
+  transform: scaleX(1.1);
+}
+.container1{
+  position: relative;
+  margin-top:7vh;
+  margin-bottom: 10vh;
+}
+#cover{
+  width:75vw;
+  height: 80vh;
+  display: block;
+  margin:0px auto 0px auto;
+}
+.myname{
+  display: inline-block;
+  position: absolute;
+  left: 35vw;
+  top: 3vw;
+  font-size: 1.8vw;
+  font-family: inherit;
+}
+.myname1{
+  position: absolute;
+  font-family: inherit;
+  left: 30vw;
+  top: 6vw;
+  font-size: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  position:absolute;
+}
+.myname1::before{
+  content: "";
+  display: block;
+  width: 4vw;
+  height: 0.1vw;
+  background-color: black;
+  position: absolute;
+  left: -5vw;
+  top: 1vw;
+  z-index: 1;
+}
+.myname1::after{
+  content: "";
+  display: block;
+  width: 4vw;
+  height: 0.1vw;
+  background-color: black;
+  position: absolute;
+  left: 16vw;
+  top: 1vw;
+  z-index: 1;
+}
+.container2{
+  position: relative;
+  margin-top: 10vw;
+  background-color: #f4f9f9;
+  /* background-color: black; */
+  height: 20vw;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vw;
+  border-radius: 3vw;
+}
+.welcome{
+  display: inline-block;
+  width: 50vw;
+  position: absolute;
+  top: 3.1vw;
+  left: 5vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  word-spacing: 0.8vw;
+  font-size: 1.5vw;
+  line-height: 2.8vw;
+}
+.welcomeimg{
+  width: 15vw;
+  height: 18vw;
+  position: absolute;
+  left: 62.5vw;
+}
+.visitor{
+  font-size: 1.9vw;
+}
+.copy{
+  background-color: black;
+  height: 6vw;
+}
+.para{
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 2.5vw;
+}

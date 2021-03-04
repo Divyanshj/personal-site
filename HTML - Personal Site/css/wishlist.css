@@ -1,0 +1,137 @@
+body{
+  margin:0;
+}
+.nav-bar{
+  height:18vh;
+  }
+.logo{
+  height: 13vh;
+  width:5.2vw;
+  position: absolute;
+  left: 5vw;
+  top: 2.8vh;
+}
+.name{
+  display:inline-block;
+  margin:0;
+  position: absolute;
+  left: 12.4vw;
+  top: 6.5vh;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 34vw;
+  top: 6.8vh;
+}
+.navi{
+  text-decoration: none;
+  color: black;
+}
+.menuli{
+  display: inline-block;
+  margin-left: 2.9vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.menuli:hover{
+  text-decoration: underline;
+}
+.menuli:active{
+  color: grey;
+}
+.social{
+  height: 7vh;
+  width: 3vw;
+  margin-left: 1vw;
+}
+#fb{
+  position: absolute;
+  left: 83vw;
+  top:6vh;
+}
+#insta{
+  position: absolute;
+  left: 88vw;
+  top: 6vh;
+}
+#linked{
+  position: absolute;
+  left: 93vw;
+  top: 6vh;
+}
+#fb:hover{
+  transform: scaleX(1.1);
+}
+#linked:hover{
+  transform: scaleX(1.1);
+}
+#insta:hover{
+  transform: scaleX(1.1);
+}
+.container1{
+  text-align: center;
+  margin-top: 4vw;
+}
+.img{
+  width: 7vw;
+  height: 8vw;
+}
+.quote{
+  margin-bottom: 4vw;
+  word-spacing: 1vw;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+.list{
+  margin-bottom: 5vw;
+  word-spacing: 1vw;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2vw;
+}
+.text{
+  font-size: 2vw;
+  margin-top: 1vw;
+  font-family: 'Architects Daughter', cursive;
+  word-spacing: 0.5vw;
+}
+.box{
+  height: 3vw;
+  width: 3vw;
+  margin-left: 10vw;
+  margin-top: 1vw;
+}
+.container2{
+  margin-top: 9vw;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12vw;
+}
+table{
+  border: 0.5vw solid black;
+  padding: 3vw;
+  border-spacing: 2vw;
+}
+table:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+tr{
+  border-bottom: 0.5vw solid black;
+}
+.copy{
+  background-color: black;
+  height: 6vw;
+}
+.para{
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 2.5vw;
+}
